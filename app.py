@@ -30,7 +30,7 @@ def faceEncodings(images):
 encodeListKnown = faceEncodings(images)
 print("All Encodings Completed!!!")
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(1)
 
 while run:
     ret, frame = camera.read()
